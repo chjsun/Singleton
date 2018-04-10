@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint rootModel.podspec' to ensure this is a
+#  Be sure to run `pod spec lint CJSingle.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,10 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "CJSingleton"
+  s.name         = "CJSingle"
   s.version      = "0.0.1"
   s.summary      = "Compact generic single parent"
-  s.platform     = :ios, "8.0"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-Rapid creation of single application
+  Rapid creation of single application
                    DESC
 
   s.homepage     = "https://github.com/chjsun/Singleton.git"
@@ -40,7 +39,7 @@ Rapid creation of single application
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # s.license      = "MIT"
+  # s.license      = "MIT (example)"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -54,10 +53,10 @@ Rapid creation of single application
   #  profile URL.
   #
 
-  s.author             = { "sun.chuanjun" => "scj126yx@126.com" }
-  # Or just: s.author    = "sun.chuanjun"
-  # s.authors            = { "sun.chuanjun" => "sun.chuanjun@ycofoundation.com" }
-  # s.social_media_url   = "http://twitter.com/sun.chuanjun"
+  s.author             = { "chjsun" => "scj126yx@126.com" }
+  # Or just: s.author    = "chjsun"
+  # s.authors            = { "chjsun" => "scj126yx@126.com" }
+  # s.social_media_url   = "http://twitter.com/chjsun"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -93,7 +92,7 @@ Rapid creation of single application
   #
 
   s.source_files  = "Singleton/CJSingle", "Singleton/CJSingle/**/*.{h,m}"
-  # s.exclude_files = "RootModel/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
